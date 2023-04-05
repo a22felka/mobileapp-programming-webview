@@ -9,4 +9,4 @@ jag initierade även myWebView genom att använda "findViewById(R.Id.my_WebView)
 Använde setWebViewClient för att skapa en ny client och satte ihop den med min WebView.
 Satte på javascript i MainActivity.java med hjälp av "getSettings().setJavaScriptEnabled(true)."
 Skapade en asset i min app som bara innehåller ett directory med en html fil och använde loadUrl() i onOptionsItemSelected för att 
-göra så att knappen "External Web Page" tog dig till his.se och "Internal Web Page" tar dig till html filen i assets.
+göra så att knappen "External Web Page" tog dig till his.se och "Internal Web Page" tar dig till html filen i assets.**
